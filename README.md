@@ -5,10 +5,11 @@ Montavista Software, LLC. release of cavium-thunderx.
 How to use:
 ==========
 
+```
 git clone --recursive https://github.com/MontaVista-OpenSourceTechnology/opencgx-cavium-thunderx-4.14-2.4
 cd opencgx-cavium-thunderx-4.14-2.4
 source setup.sh
-
+```
 By default, the script will create a project called project, you may change this
 by adding the directory name you would like to use on the source line:
 
@@ -22,8 +23,10 @@ poky/oe-init-build-env script.
 
 directory layout:
 ================
+```
 opencgx-cavium-thunderx-4.14-2.4/
        project - bitbake project for the cavium-thunderx project build
        buildtools - build tools to provide minimal build requirement for poky builds
        layers - layers for building cavium-thunderx project
        setup.sh - project setup script  
+```
