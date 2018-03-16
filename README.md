@@ -13,7 +13,9 @@ source setup.sh
 By default, the script will create a project called project, you may change this
 by adding the directory name you would like to use on the source line:
 
+```
 source setup.sh <my directory>
+```
 
 After running the top level setup.sh, you are ready to build. When starting
 another session, you can source the setup.sh script in the project directory
