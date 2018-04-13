@@ -6,6 +6,8 @@ This BSP project supports the following Cavium HW:
 - OCTEON TX 81xx (SFF)
 - OCTEON TX 83xx (EVB)
 
+This release has not been tested on Cavium ThunderX/ThunderX2 Server class processors, but it does contain the required enabling code.
+
 How to use:
 ==========
 
