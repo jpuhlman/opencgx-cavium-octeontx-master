@@ -2,6 +2,10 @@
 
 Montavista Software, LLC. release of cavium-thunderx. 
 
+This BSP project supports the following Cavium HW:
+- OCTEON TX 81xx (SFF)
+- OCTEON TX 83xx (EVB)
+
 How to use:
 ==========
 
