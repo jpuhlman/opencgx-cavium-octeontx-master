@@ -45,7 +45,7 @@
 	path = layers/meta-montavista-cgl
 	url = https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgl
 	branch = rocko
-[submodule "layers/meta-montavista-cavium-thunderx-4.14"]
-	path = layers/meta-montavista-cavium-thunderx-4.14
-	url = https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cavium-thunderx-4.14.git
+[submodule "layers/meta-montavista-cavium-octeontx-4.14"]
+	path = layers/meta-montavista-cavium-octeontx-4.14
+	url = https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cavium-octeontx-4.14.git
 	branch = rocko

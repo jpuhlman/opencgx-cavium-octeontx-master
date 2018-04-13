@@ -1,6 +1,6 @@
-# Release repository for cavium-thunderx
+# Release repository for cavium-octeontx
 
-Montavista Software, LLC. release of cavium-thunderx. 
+Montavista Software, LLC. release of cavium-octeontx. 
 
 This BSP project supports the following Cavium HW:
 - OCTEON TX 81xx (SFF)
@@ -10,8 +10,8 @@ How to use:
 ==========
 
 ```
-git clone --recursive https://github.com/MontaVista-OpenSourceTechnology/opencgx-cavium-thunderx-4.14-2.4
-cd opencgx-cavium-thunderx-4.14-2.4
+git clone --recursive https://github.com/MontaVista-OpenSourceTechnology/opencgx-cavium-octeontx-4.14-2.4
+cd opencgx-cavium-octeontx-4.14-2.4
 source setup.sh
 ```
 By default, the script will create a project called project, you may change this
@@ -36,7 +36,7 @@ or
 cd <my directory>
 source setup.sh
 bitbake core-image-minimal 
-runqemu cavium-thunderx nographic slirp
+runqemu cavium-octeontx nographic slirp
 ```
 
 For additional information see the yocto documentaion: https://www.yoctoproject.org/docs/
@@ -44,9 +44,9 @@ For additional information see the yocto documentaion: https://www.yoctoproject.
 directory layout:
 ================
 ```
-opencgx-cavium-thunderx-4.14-2.4/
-       project - bitbake project for the cavium-thunderx project build
+opencgx-cavium-octeontx-4.14-2.4/
+       project - bitbake project for the cavium-octeontx project build
        buildtools - build tools to provide minimal build requirement for poky builds
-       layers - layers for building cavium-thunderx project
+       layers - layers for building cavium-octeontx project
        setup.sh - project setup script  
 ```

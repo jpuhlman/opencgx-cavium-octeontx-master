@@ -45,8 +45,8 @@ LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cgl.git;branch=roc
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=rocko;layer=meta-openstack \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=rocko \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgl;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cavium-thunderx-4.14.git;branch=rocko \
-MACHINE@cavium-thunderx \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cavium-octeontx-4.14.git;branch=rocko \
+MACHINE@cavium-octeontx \
 DISTRO@mvista-cgx \
 SOURCE@https://github.com/MontaVista-OpenSourceTechnology/linux-mvista-2.4;branch=mvl-4.14/msd.cgx;meta=MV_KERNEL \
 SOURCE@https://github.com/MontaVista-OpenSourceTechnology/yocto-kernel-cache;branch=yocto-4.13;meta=MV_KERNELCACHE \
