@@ -24,30 +24,30 @@ else
 fi
  
 REPO_CONFIG="\
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/poky.git;branch=rocko;layer=meta \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/poky.git;branch=rocko;layer=meta-poky \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/poky.git;branch=rocko;layer=meta-yocto-bsp \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-oe \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-python \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-filesystems \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-networking \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-webserver \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-clang.git;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-virtualization.git;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-arm64-ilp32.git;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgx.git;branch=rocko;layer=qemu-bsp \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgx.git;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-perl \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-gnome \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-multimedia \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=rocko;layer=meta-xfce \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-selinux.git;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-security.git;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cgl.git;branch=rocko;layer=meta-cgl-common \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=rocko;layer=meta-openstack \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgl;branch=rocko \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cavium-octeontx-4.14.git;branch=rocko \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/poky.git;branch=sumo;layer=meta \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/poky.git;branch=sumo;layer=meta-poky \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/poky.git;branch=sumo;layer=meta-yocto-bsp \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-oe \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-python \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-filesystems \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-networking \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-webserver \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-clang.git;branch=sumo \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-virtualization.git;branch=sumo\
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-arm64-ilp32.git;branch=sumo \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgx.git;branch=sumo;layer=qemu-bsp \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgx.git;branch=sumo \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-perl \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-gnome \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-multimedia \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-xfce \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-selinux.git;branch=master \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-security.git;branch=sumo \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cgl.git;branch=master;layer=meta-cgl-common \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=master;layer=meta-openstack \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=master \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgl;branch=sumo \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cavium-octeontx-4.14.git;branch=sumo \
 MACHINE@cavium-octeontx \
 DISTRO@mvista-cgx \
 SOURCE@https://github.com/MontaVista-OpenSourceTechnology/linux-mvista-2.4;branch=mvl-4.14/msd.cgx;meta=MV_KERNEL \
