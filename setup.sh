@@ -33,7 +33,7 @@ LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;b
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-networking \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git;branch=sumo;layer=meta-webserver \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-clang.git;branch=sumo \
-LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-virtualization.git;branch=sumo\
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-virtualization.git;branch=sumo \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-arm64-ilp32.git;branch=sumo \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgx.git;branch=sumo;layer=qemu-bsp \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgx.git;branch=sumo \
