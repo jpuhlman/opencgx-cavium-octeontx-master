@@ -49,6 +49,8 @@ LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-cloud-services.git;branch=master \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cgl;branch=sumo \
 LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-montavista-cavium-octeontx-4.14.git;branch=sumo \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-qa.git;branch=sumo;layer=meta-qa-framework \
+LAYER@https://github.com/MontaVista-OpenSourceTechnology/meta-qa.git;branch=sumo;layer=meta-qa-testsuites \
 MACHINE@cavium-octeontx \
 DISTRO@mvista-cgx \
 SOURCE@https://github.com/MontaVista-OpenSourceTechnology/linux-mvista-2.4;branch=mvl-4.14/msd.cgx;meta=MV_KERNEL \
