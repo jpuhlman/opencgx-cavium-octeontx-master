@@ -12,8 +12,8 @@ How to use:
 ==========
 
 ```
-git clone --recursive https://github.com/MontaVista-OpenSourceTechnology/opencgx-cavium-octeontx-4.14-2.5
-cd opencgx-cavium-octeontx-4.14-2.5
+git clone --recursive https://github.com/MontaVista-OpenSourceTechnology/opencgx-cavium-octeontx-master
+cd opencgx-cavium-octeontx-master
 source setup.sh
 ```
 By default, the script will create a project called project, you may change this
@@ -46,7 +46,7 @@ For additional information see the yocto documentaion: https://www.yoctoproject.
 directory layout:
 ================
 ```
-opencgx-cavium-octeontx-4.14-2.5/
+opencgx-cavium-octeontx-master/
        project - bitbake project for the cavium-octeontx project build
        buildtools - build tools to provide minimal build requirement for poky builds
        layers - layers for building cavium-octeontx project
