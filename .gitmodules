@@ -8,8 +8,8 @@
 	branch = yocto-4.14
 [submodule "layers/poky"]
 	path = layers/poky
-	url = https://github.com/MontaVista-OpenSourceTechnology/poky.git
-	branch = master
+	url = https://git.yoctoproject.org/git/poky 
+	branch = master-next
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
 	url = https://github.com/MontaVista-OpenSourceTechnology/meta-openembedded.git
